@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BOG.CollectorEndPoint</name>
+    </assembly>
+    <members>
+        <member name="T:BOG.CollectorEndPoint.AssemblyVersion">
+            <summary>
+            Creates a class providing information about the main assembly.
+            </summary>
+        </member>
+        <member name="P:BOG.CollectorEndPoint.AssemblyVersion.Filename">
+            <summary>
+            The main file which is the entry point
+            </summary>
+        </member>
+        <member name="P:BOG.CollectorEndPoint.AssemblyVersion.Name">
+            <summary>
+            The application name
+            </summary>
+        </member>
+        <member name="P:BOG.CollectorEndPoint.AssemblyVersion.Version">
+            <summary>
+            The build version running
+            </summary>
+        </member>
+        <member name="P:BOG.CollectorEndPoint.AssemblyVersion.BuildDate">
+            <summary>
+            The build date of the assembly
+            </summary>
+        </member>
+        <member name="M:BOG.CollectorEndPoint.AssemblyVersion.#ctor">
+            <summary>
+            Instantiator
+            </summary>
+        </member>
+        <member name="M:BOG.CollectorEndPoint.AssemblyVersion.ToString">
+            <summary>
+            Build a simple default string format for the details.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BOG.CollectorEndPoint.AssemblyVersion.ToJson">
+            <summary>
+            Build a simple default string format for the details.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BOG.CollectorEndPoint.Controllers.MainController.#ctor(Microsoft.Extensions.Logging.ILogger{BOG.CollectorEndPoint.Controllers.MainController},Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            Instantiated via injection
+            </summary>
+            <param name="logger">(injected)</param>
+            <param name="config">(injected)</param>
+            <param name="accessor">(injected)</param>
+        </member>
+        <member name="M:BOG.CollectorEndPoint.Controllers.MainController.Event">
+            <summary>
+            Endpoint to capture the request object.
+            </summary>
+            <returns>200</returns>
+        </member>
+        <member name="T:BOG.CollectorEndPoint.Interface.IAssemblyVersion">
+            <summary>
+            Object which contains information about the main executing assembly.
+            </summary>
+        </member>
+        <member name="P:BOG.CollectorEndPoint.Interface.IAssemblyVersion.Filename">
+            <summary>
+            The main file which is the entry point
+            </summary>
+        </member>
+        <member name="P:BOG.CollectorEndPoint.Interface.IAssemblyVersion.Name">
+            <summary>
+            The application name
+            </summary>
+        </member>
+        <member name="P:BOG.CollectorEndPoint.Interface.IAssemblyVersion.Version">
+            <summary>
+            The build version running
+            </summary>
+        </member>
+        <member name="P:BOG.CollectorEndPoint.Interface.IAssemblyVersion.BuildDate">
+            <summary>
+            The build date of the assembly
+            </summary>
+        </member>
+        <member name="M:BOG.CollectorEndPoint.Interface.IAssemblyVersion.ToString">
+            <summary>
+            Default string format for the details.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BOG.CollectorEndPoint.Interface.IAssemblyVersion.ToJson">
+            <summary>
+            JSON object for the details.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

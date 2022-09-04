@@ -1,0 +1,32 @@
+﻿{
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "commandLineArgs": "--EventLogFile %TEMP%\\BOG.CollectionEndPoit.Log.txt",
+      "launchBrowser": true,
+      "launchUrl": "event",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "BOG.CollectorEndPoint": {
+      "commandName": "Project",
+      "commandLineArgs": "--EventLogFile %TEMP%\\BOG.CollectionEndPoit.Log.txt",
+      "launchBrowser": true,
+      "launchUrl": "event",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5000"
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:45441",
+      "sslPort": 0
+    }
+  }
+}
